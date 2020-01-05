@@ -1,0 +1,31 @@
+#name {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#hp {
+    font-size: 16px;
+}
+
+
+.block {
+
+}
+
+.hero {
+
+}
+
+.hp {
+
+}
+
+
+.block .hero .hp {}
+
+
+.block.hero.hp {}
+
+
+#base .hero {}
+

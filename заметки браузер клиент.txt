@@ -1,0 +1,11 @@
+let socket = new WebSocket("ws://localhost:8081");
+
+
+
+socket.onopen = function() {
+  socket.send("Это данные, мы их отправили");
+};
+
+socket.onmessage = function(event) {
+  console.log(`Получены новые данные: ${event.data}`);
+};

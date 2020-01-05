@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "css-loader": "^3.4.0",
+    "html-loader": "^0.5.5"
+  }
+}
